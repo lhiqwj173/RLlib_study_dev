@@ -1,3 +1,4 @@
+
 class algo_base:
     def __init__(self, **kwargs):
         self._training_kwargs = kwargs
