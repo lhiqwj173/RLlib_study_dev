@@ -205,3 +205,5 @@ def simplify_rllib_metrics(data, out_func=print):
     if '每轮训练步数' in important_metrics:
         out_func(f"每轮训练步数: {important_metrics['每轮训练步数']}")
     out_func('-'*30)
+
+    return important_metrics
